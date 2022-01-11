@@ -1,0 +1,69 @@
+@font-face {
+  font-family: Karla;
+  src: url(font/karla.regular.ttf);
+}
+
+body {
+  font-family: Karla;
+}
+
+p {
+  font-size: 20px;
+}
+
+.footer {
+  background-color: #f0f0f0;
+  border-top: 2px solid #023047;
+  padding-top: 50px;
+  margin-top: 150px;
+}
+
+.footer_logo {
+  font-size: 48px;
+  color: #1fa2ff;
+  font-family: Karla;
+}
+
+.btn-grad {
+  background-image: linear-gradient(
+    to right,
+    #00d2ff 0%,
+    #3a7bd5 51%,
+    #00d2ff 100%
+  );
+}
+.btn-grad {
+  margin-top: 10px;
+  padding: 8px 19px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+  font-size: 15px;
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn-custom {
+  background-color: #1fa2ff;
+  font-size: 25px;
+  padding: 8px 25px;
+  border: 1px solid #023047;
+  color: #fff;
+}
+
+#shop_heading {
+  padding: 30px 0px;
+}
+
+.bottom_separator {
+  padding-top: 50px;
+}

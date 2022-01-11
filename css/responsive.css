@@ -1,0 +1,145 @@
+@font-face {
+  font-family: Karla;
+  src: url(font/karla.regular.ttf);
+}
+
+body {
+  font-family: Karla;
+}
+
+/* ---------------- Mobile devices ---------------- */
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  /* Home */
+
+  #heading_text {
+    padding-top: 20px !important;
+    font-size: 40px !important;
+  }
+
+  p {
+    font-size: 17px !important;
+  }
+
+  #home_heading_img {
+    padding-top: 0px !important;
+    padding-bottom: 100px !important;
+  }
+
+  .home_wave_start {
+    padding-bottom: 30px !important;
+  }
+
+  #heading_home_wave {
+    font-size: 40px !important;
+  }
+
+  #heading_home_features {
+    margin-top: 150px !important;
+  }
+
+  /* Categories */
+
+  #categories_header {
+    padding-bottom: 120px !important;
+  }
+
+  .categories_wave_start {
+    padding-bottom: 70px !important;
+  }
+
+  #heading_categories_wave {
+    font-size: 40px !important;
+  }
+
+  .categories_wave_content {
+    padding-bottom: 50px !important;
+  }
+
+  .categories_wave_end {
+    margin-bottom: 0px !important;
+  }
+
+  /* Instructors */
+
+  #instructors_header {
+    padding-bottom: 120px !important;
+  }
+
+  .instructors_wave_start {
+    padding-bottom: 70px !important;
+  }
+
+  #heading_instructors_wave {
+    font-size: 40px !important;
+  }
+
+  .instructors_wave_content {
+    padding-bottom: 50px !important;
+  }
+
+  .instructors_wave_end {
+    margin-bottom: 0px !important;
+  }
+
+  /* Courses */
+
+  #courses_header {
+    padding-bottom: 170px !important;
+  }
+
+  #heading_courses_wave {
+    font-size: 40px !important;
+  }
+
+  /* Shop */
+
+  #shop_header {
+    padding-bottom: 180px !important;
+  }
+
+  #heading_shop_wave {
+    font-size: 40px !important;
+    padding-top: 20px !important;
+  }
+
+  #complete {
+    margin-bottom: 40px !important;
+  }
+
+  /* Thank You */
+
+  #back_to_home {
+    margin-left: 75px !important;
+  }
+}
+
+/* ---------------- Mobile (landscape) ---------------- */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  /* CSS Code */
+}
+
+/* ---------------- Tablet ---------------- */
+
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  /* CSS Code */
+}
+
+/* ---------------- Small desktop ---------------- */
+
+@media only screen and (min-width: 980px) and (max-width: 1023px) {
+  /* CSS Code */
+}
+
+/* ---------------- Typical desktop ---------------- */
+
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+  /* CSS Code */
+}
+
+/* ---------------- Large desktop ---------------- */
+
+@media only screen and (min-width: 1200px) {
+  /* CSS Code */
+}

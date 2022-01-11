@@ -1,0 +1,107 @@
+@font-face {
+  font-family: Karla;
+  src: url(font/karla.regular.ttf);
+}
+
+body {
+  font-family: Karla;
+}
+
+p {
+  font-size: 20px;
+}
+
+#heading_text {
+  padding-top: 200px;
+  font-size: 50px;
+  font-size: bold;
+}
+
+#instructors_header {
+  padding-top: 50px;
+}
+
+.btn-grad {
+  background-image: linear-gradient(
+    to right,
+    #1fa2ff 0%,
+    #12d8fa 51%,
+    #1fa2ff 100%
+  );
+}
+
+.btn-grad {
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.instructors_wave_start {
+  margin-top: -120px;
+  z-index: 0;
+}
+
+.instructors_wave_end {
+  margin-bottom: -130px;
+  z-index: 0;
+}
+
+#instructors_heading_img {
+  padding-top: 30px;
+  position: relative;
+  z-index: 1;
+  height: auto;
+}
+
+.instructors_wave_content {
+  background-color: #12d8fa;
+  color: #fff;
+}
+
+#heading_instructors_wave {
+  font-size: 50px;
+  font-size: bold;
+  margin-top: -100px;
+  margin-bottom: 30px;
+}
+
+.footer {
+  background-color: #f0f0f0;
+  border-top: 2px solid #023047;
+  padding-top: 50px;
+}
+
+.footer_logo {
+  font-size: 48px;
+  color: #1fa2ff;
+  font-family: Karla;
+}
+
+#table {
+  background-color: #1fa2ff;
+  padding: 20px 30px;
+  border-radius: 10px;
+  border: 1px solid #023047;
+  box-shadow: 3px 5px 15px #023047;
+  margin: 20px 0px;
+}
+
+.instructor_profile {
+  object-fit: cover;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+}
